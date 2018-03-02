@@ -30,15 +30,13 @@ h1 {
     margin-bottom: 0.05vh;
     margin-left: 1vh;
     margin-right: 1vh;
-    height: 3.25vh;
-    width: 3.25vh;
+    height: 3%;
 }
 
 #logo_main {
     margin-top: 15vh;
     margin-left: 10vh;
-    height: 70.25vh;
-    width: 70.25vh;
+    height: 60%;
 }
 
 .about_text {
