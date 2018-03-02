@@ -1,50 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- META -->
-    <meta charset="UTF-8">
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Bootstrap Theme The Band</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="Home.css">
-    <!-- TITLE -->
-    <title>N E M A N J A - J A N K O V I Ć</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel ="stylesheet" type="text/css" href="Home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
-<div class="container-fluid">
-    <div class="row" id="main_bar">
-        <div class="col-sm-3">
-            <img class=".img-responsive" id="logo_small" src="res/Logo.png">
+<body id="Page" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#Home">
+                <img class="navbar-brand" id="logo_small" src="res/logo_small.png">
+            </a>
         </div>
-        <div class="col-sm-2"></div>
-        <div class="col-sm-6">
-            <p> Home &nbsp; &nbsp; &nbsp; Projects &nbsp; &nbsp; &nbsp; Blog &nbsp; &nbsp; &nbsp;</p>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-center">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#band">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div class="col-sm-1" id="navball">...</div>
     </div>
-    <div class="row" id="main_view">
-        <div class="col-sm-7">
-            <img class=".img-responsive" id="logo_main" src="res/Logo.png">
+</nav>
+
+<div id="Home" class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <img class="img-responsive" id="logo_main" src="res/logo_medium.png" width="400" height="400">
         </div>
-        <div class="col-sm-5">
-            <div class="about_text">
-                <h2> Hi! I'm Nemanja Janković!</h2>
-                <h6> I’m a second year software engineering student at <a href="http://www.ftn.uns.ac.rs"> FACULTY OF TECHNICAL SCIENCES, NOVI SAD </a>. <br> <br>
-                    This website is an easily accessible portfolio of my work so far. <br> <br>
-                    Scroll down to see the all <a href="http://www.ftn.uns.ac.rs"> PROJECTS I’ve worked on </a>. <br> <br>
-                    Read my thoughts on the <a href="http://www.ftn.uns.ac.rs"> BLOG </a>. <br> <br> <br> <br> <br>
-                    You can find ways to get in touch with me via:
-                </h6>
-                <img class="contact-logo-small" src="res/Skype.png"> <a href="skype:nemanjaj97?userinfo"> Skype </a> <br>
-                <img class="contact-logo-small" src="res/Discord.png"> Discord - nem#6689 <br>
-                <img class="contact-logo-small" src="res/Facebook.png"> <a href="http://facebook.com/jankovic.nemanjaa"> Facebook </a>
-            </div>
+        <div class="col-sm-6">
+            <h1> Hi! I'm Nemanja Janković!</h1>
+            <h4> I’m a second year software engineering student at <a href="http://www.ftn.uns.ac.rs"> FACULTY OF TECHNICAL SCIENCES, NOVI SAD</a>. <br> <br>
+                This website is an easily accessible portfolio of my work so far. <br> <br>
+                Scroll down to see the all <a href="http://www.ftn.uns.ac.rs"> PROJECTS </a> I’ve worked on. <br> <br>
+                Read my thoughts on the <a href="http://www.ftn.uns.ac.rs"> BLOG </a>. <br> <br> <br> <br> <br>
+                You can find ways to get in touch with me via:
+                <div class="row">
+                    <div class="col-sm-2">
+                        <a href="skype:nemanjaj97?userinfo">
+                            <img class="img-responsive" src="res/Skype.png" width="16" height="16">Skype
+                        </a>
+                    </div>
+                    <div class="col-sm-2">
+                        <img class="img-responsive" src="res/Discord.png" width="16" height="16">Discord - nem#6689</div>
+                    <div class="col-sm-2">
+                        <a href="http://facebook.com/jankovic.nemanjaa">
+                            <img class="img-responsive" src="res/Facebook.png" width="16" height="16">Facebook
+                        </a>
+                    </div>
+                </div>
+            </h4>
         </div>
     </div>
 </div>
-<!-- BOOTSTRAP JAVASCRIPT -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function(){
+        // Initialize Tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    })
+</script>
+
 </body>
 </html>

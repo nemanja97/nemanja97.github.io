@@ -1,59 +1,55 @@
 @import url(//fonts.googleapis.com/css?family=VT323);
 
 body {
-    background-color: #151414;
     font-family: 'VT323', sans-serif;
-}
-
-h1 {
-    color: aliceblue;
-}
-
-.row {
-    margin-top: 1vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    color: #FFFFFF;
     background-color: #0b0a0a;
+    color: #eee1e1;
 }
 
-#main_bar {
-    height: 5vh;
+/* Add a dark background color with a little bit see-through */
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 14px !important;
+    letter-spacing: 2px;
+    opacity:0.9;
 }
 
-#main_view {
-    height: 92vh;
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
 }
 
-#logo_small {
-    margin-top: 0.05vh;
-    margin-bottom: 0.05vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    height: 3%;
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
 }
 
-#logo_main {
-    margin-top: 15vh;
-    margin-left: 10vh;
-    height: 60%;
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
 }
 
-.about_text {
-    margin-top: 15vh;
-    margin-left: -25vh;
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
 }
 
-.contact-logo-small {
-    height: 3vh;
-    width: 3vh;
+/* Make text centered */
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
 }
 
-#navball {
-    padding-left: 5.5vw;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+#Home {
+    margin-top: 10vh;
 }
