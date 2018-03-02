@@ -53,4 +53,9 @@ h1 {
 
 #navball {
     padding-left: 5.5vw;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
