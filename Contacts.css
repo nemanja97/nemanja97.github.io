@@ -4,6 +4,10 @@ body {
     font-family: 'VT323', sans-serif;
     background-image: url('res/background.jpg');
     color: #eee1e1;
+<<<<<<< HEAD
+=======
+    padding-bottom: 50px;
+>>>>>>> 38b74c3a20739a1f374407188ab1b301a207bd7e
 }
 
 /* Add a dark background color with a little bit see-through */
@@ -50,6 +54,27 @@ body {
     float:none;
 }
 
+<<<<<<< HEAD
+=======
+#Home {
+    margin-top: 10vh;
+}
+
+#mainText {
+    font-size: calc(20vw + 20vh + 5vmin);
+}
+
+#mainText2 {
+    font-size: calc(5vw + 5vh + 8vmin);
+    margin-bottom: 10vh;
+}
+
+#mainText3 {
+    font-size: calc(0.5vw + 1.5vh + 1.5vmin);
+    padding-bottom: 5vh;
+}
+
+>>>>>>> 38b74c3a20739a1f374407188ab1b301a207bd7e
 footer {
     background-color: #2d2d30;
     color: #f5f5f5;
@@ -80,6 +105,33 @@ footer a:link {
     color: #f5f5f5;
 }
 
+<<<<<<< HEAD
+=======
+a.page_link {
+    color: #85122c;
+}
+
+a.href_link:link {
+    text-decoration: none;
+    color: white;
+}
+
+a.href_link:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a.href_link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a.href_link:active {
+    text-decoration: none;
+    color: white;
+}
+
+>>>>>>> 38b74c3a20739a1f374407188ab1b301a207bd7e
 .contact-field {
     padding-left: 5vw;
     padding-right: 5vw;
@@ -90,6 +142,10 @@ textarea {
 }
 
 .main-img {
+<<<<<<< HEAD
     padding-top: 9vh;
     padding-bottom: 20vh;
+=======
+    padding-top: 7vh;
+>>>>>>> 38b74c3a20739a1f374407188ab1b301a207bd7e
 }
