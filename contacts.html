@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>N E M A N J A - J A N K O V I Ć</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel ="stylesheet" type="text/css" href="Contacts.css">
+    <link rel="icon" href="res/logo_small.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body id="contact" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html">
+                    <img class="navbar-brand" id="logo_small" src="res/logo_small.png">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-center">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container main-img">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <img class="img-responsive center-block reposition" src="res/logo_medium.png" width="550" height="550">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid contact-field">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-12">
+                <form action="https://formspree.io/nemanja997@email.com" method="POST">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="message" name="message" placeholder="Type your message.." rows="10"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right" type="submit">Send</button>
+                            <input type="text" name="_gotcha" style="display:none" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="navbar-nav navbar-fixed-bottom">
+        <a class="up-arrow" href="#contact" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+    </footer>
+    <script>
+        $(document).on('click', 'a[href^="#"]', function (event) {
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
+        });
+    </script>
+</body>
+</html>
