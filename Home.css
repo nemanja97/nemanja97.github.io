@@ -51,16 +51,11 @@ body {
 }
 
 #Home {
-<<<<<<< HEAD
     margin-top: 18vh;
-=======
-    margin-top: 10vh;
->>>>>>> 38b74c3a20739a1f374407188ab1b301a207bd7e
 }
 
 #mainText {
     font-size: calc(20vw + 20vh + 5vmin);
-<<<<<<< HEAD
     padding-top: 120px;
     padding-bottom: 320px;
 }
@@ -69,13 +64,6 @@ body {
     font-size: calc(5vw + 5vh + 6vmin);
     padding-top:  120px;
     padding-bottom: calc(20vw + 20vh + 20vmin);
-=======
-}
-
-#mainText2 {
-    font-size: calc(5vw + 5vh + 8vmin);
-    margin-bottom: 10vh;
->>>>>>> 38b74c3a20739a1f374407188ab1b301a207bd7e
 }
 
 #mainText3 {
@@ -138,9 +126,5 @@ a.href_link:active {
 }
 
 .underline {
-<<<<<<< HEAD
     border-bottom: 10px solid #85122c;
-=======
-    border-bottom: 10px solid #85122c
->>>>>>> 38b74c3a20739a1f374407188ab1b301a207bd7e
 }
