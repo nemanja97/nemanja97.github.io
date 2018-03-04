@@ -50,27 +50,6 @@ body {
     float:none;
 }
 
-#Home {
-    margin-top: 18vh;
-}
-
-#mainText {
-    font-size: calc(20vw + 20vh + 5vmin);
-    padding-top: 120px;
-    padding-bottom: 320px;
-}
-
-#mainText2 {
-    font-size: calc(5vw + 5vh + 6vmin);
-    padding-top:  120px;
-    padding-bottom: calc(20vw + 20vh + 20vmin);
-}
-
-#mainText3 {
-    font-size: calc(0.5vw + 1.5vh + 1.5vmin);
-    padding-bottom: 5vh;
-}
-
 footer {
     background-color: #2d2d30;
     color: #f5f5f5;
@@ -101,30 +80,16 @@ footer a:link {
     color: #f5f5f5;
 }
 
-a.page_link {
-    color: #85122c;
+.contact-field {
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
-a.href_link:link {
-    text-decoration: none;
-    color: white;
+textarea {
+    resize: none;
 }
 
-a.href_link:visited {
-    text-decoration: none;
-    color: white;
-}
-
-a.href_link:hover {
-    text-decoration: none;
-    color: white;
-}
-
-a.href_link:active {
-    text-decoration: none;
-    color: white;
-}
-
-.underline {
-    border-bottom: 10px solid #85122c;
+.main-img {
+    padding-top: 9vh;
+    padding-bottom: 20vh;
 }
