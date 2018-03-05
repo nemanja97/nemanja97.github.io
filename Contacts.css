@@ -90,6 +90,18 @@ textarea {
 }
 
 .main-img {
+<<<<<<< HEAD
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+
+h1 {
+    font-size: calc(4vw + 4vh + 3vmin);
+    padding: 10vh;
+}
+=======
     padding-top: 9vh;
     padding-bottom: 20vh;
 }
+>>>>>>> 53c8d0b7fb0c424fc946f73a0ee38021c09763a3
