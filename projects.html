@@ -37,16 +37,42 @@
         <div class="col-md-4 individual_project">
             <div class="inner">
                 <img class="img-responsive pagination-centered project_image" src="res/anagram-solver.png">
+                <div class="overlay">
+                    <div class="overlay_text text-center">
+                        <h1>anagram</h1>
+                        <p>
+                            A CLI lookup of possible anagrams for a given phrase. <br>
+                            Features a full list of English words, scrapped from Dictionary.com
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-md-4 individual_project">
             <div class="inner">
                 <img class="img-responsive pagination-centered project_image" src="res/imgedit_transparent.png">
+                <div class="overlay">
+                    <div class="overlay_text text-center reposition">
+                        <h1>img-edit</h1>
+                        <p>
+                            An image editing utility allowing for easy color exchange for a given image or directory. <br>
+                            The use of multiprocessing allows for a fast workflow and scalability for a different number of CPU cores.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-md-4 individual_project">
             <div class="inner">
                 <img class="img-responsive pagination-centered project_image" src="res/Q.png">
+                <div class="overlay">
+                    <div class="overlay_text text-center reposition">
+                        <h1>query</h1>
+                        <p>
+                            An easy to use file search system for locally stored HTML documents.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -54,16 +80,36 @@
         <div class="col-md-4 individual_project">
             <div class="inner">
                 <img class="img-responsive pagination-centered project_image" src="res/9mm.png">
+                <div class="overlay">
+                    <div class="overlay_text text-center">
+                        <h1>9 men' morris game</h1>
+                        A 9 men's morris game played versus the AI.
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-md-4 individual_project">
             <div class="inner">
                 <img class="img-responsive pagination-centered project_image" src="res/xkcd.png">
+                <div class="overlay">
+                    <div class="overlay_text text-center">
+                        <h1>xkcd comic downloader</h1>
+                        A simple to use utility that scrapes every comic from xkcd.com.
+                        Takes advantage of multi threading to download multiple files at once.
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-md-4 individual_project">
             <div class="inner">
                 <img class="img-responsive pagination-centered project_image" src="res/weather.png">
+                <div class="overlay">
+                    <div class="overlay_text text-center">
+                        <h1>weather notify</h1>
+                        An SMS / Email notifier sending information about changing weather patterns.
+                        Requires API keys from OpenWeatherMap and a Twilio phone number.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -80,6 +126,11 @@
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 500);
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
     });
 </script>
 </body>

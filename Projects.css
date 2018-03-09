@@ -87,11 +87,12 @@ footer a:link {
 }
 
 .individual_project {
-    height: 60vh;
+    height: 44vh;
 }
 
 .project_image {
     height: 90%;
+    max-height: 350px;
     position: absolute;
     top: 50%;
     left:50%;
@@ -99,10 +100,38 @@ footer a:link {
 }
 
 .inner {
-    height: 60vh;
+    height: 44vh;
     margin: 0.5vh;
 }
 
 .shelf {
     padding-bottom: 0.5vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #050505;;
+}
+
+.inner:hover .overlay {
+    opacity: 0.8;
+}
+
+.overlay_text {
+    color: white;
+    font-size: calc(2.2vh);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
