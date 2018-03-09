@@ -81,21 +81,28 @@ footer a:link {
     color: #f5f5f5;
 }
 
-.contact-field {
-    padding-left: 5vw;
-    padding-right: 5vw;
+#projectWrapper {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
-textarea {
-    resize: none;
+.individual_project {
+    height: 60vh;
 }
 
-.main-img {
-    padding-top: 20vh;
-    padding-bottom: 20vh;
+.project_image {
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 
-h1 {
-    font-size: calc(4vw + 4vh + 3vmin);
-    padding: 10vh;
+.inner {
+    height: 60vh;
+    margin: 0.5vh;
+}
+
+.shelf {
+    padding-bottom: 0.5vh;
 }
