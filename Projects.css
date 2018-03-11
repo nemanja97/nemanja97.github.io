@@ -125,6 +125,14 @@ footer a:link {
     opacity: 0.8;
 }
 
+.inner:focus .overlay {
+    opacity: 0.8;
+}
+
+.inner:active .overlay {
+    opacity: 0.8;
+}
+
 .overlay_text {
     color: white;
     font-size: calc(2.2vh);
@@ -134,4 +142,28 @@ footer a:link {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+}
+
+a.project_link {
+    color: #85122c;
+}
+
+a.project_link:link {
+    text-decoration: none;
+    color: #85122c;
+}
+
+a.project_link:visited {
+    text-decoration: none;
+    color: #85122c;
+}
+
+a.project_link:hover {
+    text-decoration: none;
+    color: #85122c;
+}
+
+a.project_link:active {
+    text-decoration: none;
+    color: #85122c;
 }
