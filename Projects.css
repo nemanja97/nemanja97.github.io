@@ -125,10 +125,6 @@ footer a:link {
     opacity: 0.8;
 }
 
-.inner:focus .overlay {
-    opacity: 0.8;
-}
-
 .inner:active .overlay {
     opacity: 0.8;
 }
