@@ -125,3 +125,9 @@ a.href_link:active {
     text-decoration: none;
     color: white;
 }
+
+.underline {
+	border-bottom-style: solid;
+	border-bottom-color: #85122c;
+	border-bottom-width: 5px;
+}
